@@ -8,4 +8,4 @@ Though I have written a recovery method from the disablement of the on-board Wi-
 
 * http://file.ueda.tech/RPIM_BOOK/ubuntu-16.04-preinstalled-server-armhf+raspi3-upgradable-20171223.img.xz
 
-You can install Ubuntu and use the Wi-Fi device. However, if you execute ``apt upgrade``, it will disappear from the system.
+You can install Ubuntu with this image file and use the Wi-Fi device. However, if you execute ``apt upgrade``, it will disappear from the system.
