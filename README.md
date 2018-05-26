@@ -1,1 +1,11 @@
-# info
+# Information page for "Learning ROS robot programming with Raspberry Pi"
+
+## important notices
+
+### May 26, 2018
+
+Though I have written a recovery method from the disablement of the on-board Wi-Fi device after ``apt upgrade`` in Section 2.1.6, this method is now invalid. Unless I give a solution, please use the following image. 
+
+* http://file.ueda.tech/RPIM_BOOK/ubuntu-16.04-preinstalled-server-armhf+raspi3-upgradable-20171223.img.xz
+
+You can install Ubuntu and use the Wi-Fi device. However, if you execute ``apt upgrade``, it will disappear from the system.
