@@ -15,6 +15,10 @@ Please change the URLs in p.22 as follows:
     * old: https://github.com/RPi-Distro/firmware-nonfree/raw/master/brcm80211/brcm/brcmfmac43430-sdio.txt
     * new: https://github.com/RPi-Distro/firmware-nonfree/raw/master/brcm/brcmfmac43430-sdio.txt
 
+### June 11, 2016
+
+When we create a ROS package with `catkin_create_pkg`, the format of `package.xml` becomes "Version 2." In this case, we use `exec_depend` instead of `run\depend`.
+
 ### May 26, 2018
 
 Though I have written a recovery method from the disablement of the on-board Wi-Fi device after ``apt upgrade`` in Section 2.1.6, this method is now invalid. Unless I give a solution, please use the following image. 
