@@ -2,6 +2,19 @@
 
 ## important notices
 
+### June 15, 2018
+
+I have confirmed that the WiFi problem can be solved with the procedure in https://wiki.ubuntu.com/ARM/RaspberryPi#Wifi_firmware .
+
+Please change the URLs in p.22 as follows:
+
+* bin file: 
+    * old: https://github.com/RPi-Distro/firmware-nonfree/raw/master/brcm80211/brcm/brcmfmac43430-sdio.bin
+    * new: https://github.com/RPi-Distro/firmware-nonfree/raw/master/brcm/brcmfmac43430-sdio.bin
+* txt file: 
+    * old: https://github.com/RPi-Distro/firmware-nonfree/raw/master/brcm80211/brcm/brcmfmac43430-sdio.txt
+    * new: https://github.com/RPi-Distro/firmware-nonfree/raw/master/brcm/brcmfmac43430-sdio.txt
+
 ### May 26, 2018
 
 Though I have written a recovery method from the disablement of the on-board Wi-Fi device after ``apt upgrade`` in Section 2.1.6, this method is now invalid. Unless I give a solution, please use the following image. 
