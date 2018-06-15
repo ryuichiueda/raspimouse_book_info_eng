@@ -21,6 +21,8 @@ When we create a ROS package with `catkin_create_pkg`, the format of `package.xm
 
 ### May 26, 2018
 
+*solved -> June 15, 2018*
+
 Though I have written a recovery method from the disablement of the on-board Wi-Fi device after ``apt upgrade`` in Section 2.1.6, this method is now invalid. Unless I give a solution, please use the following image. 
 
 * http://file.ueda.tech/RPIM_BOOK/ubuntu-16.04-preinstalled-server-armhf+raspi3-upgradable-20171223.img.xz
