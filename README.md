@@ -1,6 +1,7 @@
 # Information page for "Learning ROS robot programming with Raspberry Pi"
 
-[update information](update_info.md)
+* [update information](update_info.md)
+* OS images for Raspberry Pi Mouse: https://b.ueda.tech/?post=20180617_raspi_ubuntu
 
 ## important notices
 
