@@ -5,6 +5,24 @@
 
 ## important notices
 
+### Aug. 9, 2018
+
+Travis CI requires `sudo` when we use `pip`. Please modify `travis_ros_install.bash` as follows.
+
+```
+$ head travis_ros_install.bash 
+#!/bin/bash -xve
+
+#required packages
+sudo pip install catkin_pkg       ###add sudo!!!###
+sudo pip install empy             ###add sudo!!!###
+sudo pip install pyyaml           ###add sudo!!!###
+sudo pip install rospkg           ###add sudo!!!###
+
+#ros install
+cd ..
+```
+
 ### June 15, 2018
 
 I have confirmed that the WiFi problem can be solved with the procedure in https://wiki.ubuntu.com/ARM/RaspberryPi#Wifi .
