@@ -2,6 +2,7 @@
 
 * [update information](update_info.md)
 * OS images for Raspberry Pi Mouse: https://b.ueda.tech/?post=20180617_raspi_ubuntu
+* We can use Raspberry Pi 3 B+: https://b.ueda.tech/?post=20180827_raspimouse_e
 
 ## important notices
 
